@@ -24,7 +24,7 @@ const ConnectLinks: ConnectLink[] = [
   },
   {
     label: "Email (Personal)",
-    href: "mailto:romeo.detimmerman@gmail.com",
+    href: "mailto:alexanderdesoete@gmail.com",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@ const ConnectLinks: ConnectLink[] = [
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/alexander-de-soete/",
+    href: "https://www.linkedin.com/in/alexander-de-soete-887681273/",
     icon: <FaLinkedin />,
   },
 ];
