@@ -97,14 +97,14 @@ const workplaces = [
   {
     title: "Teaching and Research Assistant",
     company: "Ghent University",
-    time: "2019 -",
+    time: "2019 - now",
     imageSrc: ugentLogo,
     link: "https://www.ugent.be/en",
   },
   {
-    title: "Secondary school teacher (English & Dutch)",
+    title: "Secondary school teacher",
     company: "GO! Atheneum Voskenslaan",
-    time: "2018 - 2018",
+    time: "2018",
     imageSrc: vosLogo,
     link: "https://www.kavoskenslaan.be/",
   },
