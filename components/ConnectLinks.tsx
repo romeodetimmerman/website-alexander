@@ -38,7 +38,7 @@ const ConnectLinks: ConnectLink[] = [
     ),
   },
   {
-    label: "RsearchGate",
+    label: "ResearchGate",
     href: "https://www.researchgate.net/profile/Alexander-De-Soete",
     icon: <FaResearchgate />,
   },
