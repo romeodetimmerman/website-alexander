@@ -10,7 +10,7 @@ import Navigation from "@/components/Navigation";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Home | Romeo",
+  title: "Home | Alexander",
   description:
     "Doctoral researcher in linguistics at Ghent University interested in stylistic language use, staged performance & authenticity.",
 };

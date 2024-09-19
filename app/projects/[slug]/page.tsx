@@ -76,10 +76,10 @@ export default function Project({ params }: { params: any }) {
             Need more project details, or interested in working together? Reach
             out to me directly at{" "}
             <a
-              href="mailto:romeo.detimmerman@ugent.be"
+              href="mailto:alexander.desoete@ugent.be"
               className="text-primary underline"
             >
-              romeo.detimmerman@ugent.be
+              alexander.desoete@ugent.be
             </a>{" "}
           </p>
         </div>

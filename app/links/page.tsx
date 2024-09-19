@@ -21,7 +21,7 @@ export default function Links() {
             style={{ "--index": 2 } as React.CSSProperties}
           >
             <h1 className="text-center text-2xl font-bold tracking-tight">
-              Romeo De Timmerman
+              Alexander De Soete
             </h1>
             <p className="mx-auto max-w-sm text-center text-secondary">
               Linguistics scholar with a strong interest for data science.

@@ -14,7 +14,7 @@ import gothenburg from "public/gallery/gothenburg.jpeg";
 import Avatar from "@/public/avatar.png";
 
 export const metadata: Metadata = {
-  title: "About | Romeo",
+  title: "About | Alexander",
   description: "Doctoral Researcher in sociolinguistics at Ghent University.",
 };
 

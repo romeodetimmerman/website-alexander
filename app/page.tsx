@@ -19,13 +19,13 @@ export default async function Home() {
       <div className="flex animate-in flex-col gap-8">
         <div>
           <h1 className="animate-in text-3xl font-bold tracking-tight text-primary">
-            Romeo De Timmerman
+            Alexander De Soete
           </h1>
           <p
             className="animate-in text-secondary"
             style={{ "--index": 1 } as React.CSSProperties}
           >
-            Doctoral researcher at Ghent University
+            Teaching and Research Assistant (Ghent University) & Doctoral Researcher (Ghent University & University of the Western Cape)
           </p>
         </div>
         <div
@@ -44,8 +44,7 @@ export default async function Home() {
           className="max-w-lg animate-in text-primary"
           style={{ "--index": 2 } as React.CSSProperties}
         >
-          Hi, I&apos;m Romeo De Timmerman, a linguistics scholar at Ghent
-          University with a profound interest for data science.
+          Hi, I&apos;m Alexander, a sociolinguistics researcher and lecturer, investigating the interactive construction of language policies by stakeholders navigating multilingualism in English-medium higher education.
         </p>
         <ul
           className="animated-list flex animate-in flex-col gap-2 text-secondary md:flex-row md:gap-6"
@@ -53,7 +52,7 @@ export default async function Home() {
         >
           <li className="transition-opacity">
             <Link
-              href="mailto:romeo.detimmerman@ugent.be"
+              href="mailto:alexander.desoete@ugent.be"
               className="flex items-center gap-2 no-underline"
             >
               <ArrowUpRightIcon className="h-5 w-5" />

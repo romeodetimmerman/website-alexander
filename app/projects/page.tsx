@@ -6,7 +6,7 @@ import { allProjects, Project } from ".contentlayer/generated";
 import Halo from "@/components/ui/Halo";
 
 export const metadata: Metadata = {
-  title: "Projects | Romeo",
+  title: "Projects | Alexander",
   description:
     "Learn more about my work.",
 };
