@@ -5,17 +5,15 @@ import Link from "@/components/ui/Link";
 import Section from "@/components/Section";
 import ConnectLinks from "../../components/ConnectLinks";
 import Workplaces from "./components/Workplaces";
-import Gallery from "./components/Gallery";
 
 import ugentLogo from "public/work/ugent.png";
+import vosLogo from "public/work/vos.png"
 
-import ansolilla from "public/gallery/anso-lilla.jpg";
-import gothenburg from "public/gallery/gothenburg.jpeg";
 import Avatar from "@/public/avatar.png";
 
 export const metadata: Metadata = {
   title: "About | Alexander",
-  description: "Doctoral Researcher in sociolinguistics at Ghent University.",
+  description: "Researching multilingualism and language policies in English-medium instruction in higher education.",
 };
 
 export default function About() {
@@ -33,7 +31,7 @@ export default function About() {
           className="rounded-full bg-secondary"
         />
         <h1 className="animate-in text-3xl font-bold tracking-tight">
-          Romeo De Timmerman
+          Alexander De Soete
         </h1>
       </div>
       <div
@@ -43,16 +41,7 @@ export default function About() {
         <Section heading="About" headingAlignment="left">
           <div className="flex flex-col gap-6">
             <p className="text-justify">
-              I obtained my master&apos;s degree in English and Dutch
-              linguistics and literature from Ghent University in 2020. Since
-              then, I have worked as a researcher on a one-year FWO-funded
-              research project, and as a full-time language instructor. In
-              November 2022, I started working as a doctoral researcher at Ghent
-              University under supervision of Prof. Dr. Stef Slembrouck (UGent)
-              and Prof. Dr. Matthias Heyman (VUB). My PhD project focuses on the
-              use of African American English by contemporary blues performers,
-              and the social meanings that these stylistic-linguistic practices
-              generate.
+            Alexander De Soete is a teaching and research assistant at Ghent University. He is also a PhD candidate at Ghent University, where he is a member of the MULTIPLES research group, and at the University of the Western Cape, where he is affiliated with the Centre for Multilingualism and Diversities Research. His research interests are situated in the field of sociolinguistics, with a specific focus on the interplay between multilingualism and epistemological access in tertiary education. His current research revolves around the use of English as a Medium of Instruction and its entanglement with local languages.
             </p>
           </div>
         </Section>
@@ -93,7 +82,7 @@ export default function About() {
         <Section heading="Work" headingAlignment="left">
           <div className="flex w-full flex-col gap-8">
             <p>
-              {new Date().getFullYear() - 2020}+ years of academic and
+              {new Date().getFullYear() - 2017}+ years of academic and
               professional experience.
             </p>
             <Workplaces items={workplaces} />
@@ -106,30 +95,30 @@ export default function About() {
 
 const workplaces = [
   {
-    title: "Doctoral researcher",
+    title: "Teaching and Research Assistant",
     company: "Ghent University",
-    time: "2022 -",
+    time: "2019 -",
     imageSrc: ugentLogo,
     link: "https://www.ugent.be/en",
   },
   {
-    title: "Language instructor",
-    company: "Ghent University",
-    time: "2021 - 2022",
-    imageSrc: ugentLogo,
-    link: "https://www.ugent.be/en",
+    title: "Secondary school teacher (English & Dutch)",
+    company: "GO! Atheneum Voskenslaan",
+    time: "2018 - 2018",
+    imageSrc: vosLogo,
+    link: "https://www.kavoskenslaan.be/",
   },
   {
-    title: "Scientific Staff",
+    title: "Teaching Fellow",
     company: "Ghent University",
-    time: "2020 - 2022",
+    time: "2017 - 2018",
     imageSrc: ugentLogo,
     link: "https://www.ugent.be/en",
   },
   {
     title: "Academic Writing Tutor",
     company: "Ghent University",
-    time: "2020",
+    time: "2014 - 2018",
     imageSrc: ugentLogo,
     link: "https://www.ugent.be/en",
   },

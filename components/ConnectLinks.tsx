@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaResearchgate, FaLinkedin } from "react-icons/fa";
 
 interface ConnectLink {
   label: string;
@@ -9,7 +9,7 @@ interface ConnectLink {
 const ConnectLinks: ConnectLink[] = [
   {
     label: "Email (Academic)",
-    href: "mailto:romeo.detimmerman@ugent.be",
+    href: "mailto:alexander.desoete@ugent.be",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -38,13 +38,13 @@ const ConnectLinks: ConnectLink[] = [
     ),
   },
   {
-    label: "GitHub",
-    href: "https://github.com/romeodetimmerman",
-    icon: <FaGithub />,
+    label: "RsearchGate",
+    href: "https://www.researchgate.net/profile/Alexander-De-Soete",
+    icon: <FaResearchgate />,
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/romeo-detimmerman/",
+    href: "https://www.linkedin.com/in/alexander-de-soete/",
     icon: <FaLinkedin />,
   },
 ];

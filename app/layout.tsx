@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Home | Alexander",
   description:
-    "Doctoral researcher in linguistics at Ghent University interested in stylistic language use, staged performance & authenticity.",
+    "Researching multilingualism and language policies in English-medium instruction in higher education.",
 };
 
 export default function RootLayout({

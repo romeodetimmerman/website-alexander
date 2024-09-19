@@ -24,7 +24,7 @@ export default function Links() {
               Alexander De Soete
             </h1>
             <p className="mx-auto max-w-sm text-center text-secondary">
-              Linguistics scholar with a strong interest for data science.
+            Researching multilingualism and language policies in English-medium instruction in higher education.
             </p>
           </div>
         </div>
