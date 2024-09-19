@@ -46,17 +46,17 @@ export async function generateMetadata(
   const ogImage = `https://b-r.io/${image}`;
 
   const metadata: Metadata = {
-    title: `${title} | Romeo`,
+    title: `${title} | Alexander`,
     description,
     openGraph: {
-      title: `${title} | Romeo`,
+      title: `${title} | Alexander`,
       description,
       type: "article",
       publishedTime,
-      url: `https://romeodetimmerman.com/blog/${title}`,
+      url: `https://alexanderdesoete.com/blog/${title}`,
       images: [
         {
-          url: `https://romeodetimmerman.com/api/og?title=${title}`,
+          url: `https://alexanderdesoete.com/api/og?title=${title}`,
           alt: title,
         },
       ],
@@ -70,9 +70,9 @@ export async function generateMetadata(
 export default async function Post({ params }: { params: any }) {
   const post = allPosts.find((post) => post.slug === params.slug);
 
-  // const seoTitle = `${post.title} | Romeo De Timmerman`;
+  // const seoTitle = `${post.title} | Alexander De Soete`;
   // const seoDesc = `${post.summary}`;
-  // const url = `https://romeodetimmerman.com/blog/${post.slug}`;
+  // const url = `https://alexanderdesoete.com/blog/${post.slug}`;
   // const MDXContent = useMDXComponent(post?.body.code);
 
   if (!post) {
