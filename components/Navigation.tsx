@@ -23,13 +23,10 @@ export default function Navigation() {
     <header className={clsx("relative top-0 z-20 bg-primary md:sticky")}>
       <nav className="lg mx-auto flex max-w-[700px] items-center justify-between gap-3 px-4 py-3 md:px-6">
         <Link href="/" className="shrink-0 text-primary">
-        <svg xmlns="http://www.w3.org/2000/svg" width="36"
-            viewBox="0 0 375 375"
-            height="36"
-            version="1.2"style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g><path style="opacity:1" fill="#000000" d="M -0.5,-0.5 C 133.833,-0.5 268.167,-0.5 402.5,-0.5C 402.5,133.833 402.5,268.167 402.5,402.5C 268.167,402.5 133.833,402.5 -0.5,402.5C -0.5,268.167 -0.5,133.833 -0.5,-0.5 Z"/></g>
-<g><path style="opacity:1" fill="#fcfcfc" d="M 161.5,109.5 C 185.328,108.502 209.328,108.169 233.5,108.5C 250.799,170.364 268.465,232.03 286.5,293.5C 270.167,293.5 253.833,293.5 237.5,293.5C 234.186,280.911 231.186,268.244 228.5,255.5C 209.5,255.5 190.5,255.5 171.5,255.5C 168.503,268.157 165.503,280.823 162.5,293.5C 146.833,293.5 131.167,293.5 115.5,293.5C 131.977,235.592 148.144,177.592 164,119.5C 164.667,116.833 164.667,114.167 164,111.5C 163.292,110.619 162.458,109.953 161.5,109.5 Z"/></g>
-<g><path style="opacity:1" fill="#090909" d="M 199.5,150.5 C 206.248,172.542 212.248,194.875 217.5,217.5C 206.167,217.5 194.833,217.5 183.5,217.5C 188.838,195.136 194.172,172.802 199.5,150.5 Z"/></g>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="36" height="36" viewBox="0 0 375 375" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd">
+<g/>
+<g/>
+<path d="M 161.5,109.5 C 185.328,108.502 209.328,108.169 233.5,108.5C 250.799,170.364 268.465,232.03 286.5,293.5C 270.167,293.5 253.833,293.5 237.5,293.5C 234.186,280.911 231.186,268.244 228.5,255.5C 209.5,255.5 190.5,255.5 171.5,255.5C 168.503,268.157 165.503,280.823 162.5,293.5C 146.833,293.5 131.167,293.5 115.5,293.5C 131.977,235.592 148.144,177.592 164,119.5C 164.667,116.833 164.667,114.167 164,111.5C 163.292,110.619 162.458,109.953 161.5,109.5 Z M 199.5,150.5 C 206.248,172.542 212.248,194.875 217.5,217.5C 206.167,217.5 194.833,217.5 183.5,217.5C 188.838,195.136 194.172,172.802 199.5,150.5 Z " fill="#000000"/>
 </svg>
         </Link>
         <ul className="hidden items-center gap-1 md:flex">
